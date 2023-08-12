@@ -1,0 +1,50 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.events{
+    background-color: rgb(212, 245, 245);
+    margin: 50px 0;
+}
+.events__heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-image: url("src/assets-photos/opening__image.JPG");
+    background-size: 100px 40px;
+    
+}
+.events__heading >h2{
+    font-family: 'Grandstander', cursive;
+    font-size: 60px;
+}
+.events__photos{
+    display: flex;
+    // margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    p{
+        font-family: 'Grandstander', cursive;
+        text-orientation: ;
+    }
+}
+
+.events__image1{
+    height: 600px;
+    width: 450px;
+    background-image: url("./assets-photos/Plant23.jpg");
+    background-size: cover;
+}
+.events__image2{
+    height: 600px;
+    width: 450px;
+    background-image: url("src/assets-photos/24.06 plant poster1 (1).png");
+    background-size: cover;
+}
