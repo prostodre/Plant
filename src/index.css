@@ -1,4 +1,8 @@
 .container{
-  background-color: rgb(212, 245, 245);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(205,250,130,1) 0%, rgba(255,182,215,1) 100%);
+}
 
+* {
+  padding: 0;
+  margin: 0 auto
 }

@@ -1,0 +1,104 @@
+.container__contact {
+  // margin: 0 auto;
+  margin-top: 80px;
+  text-decoration: none;
+  // box-sizing: border-box;
+  width: 1280px;
+
+  .contact__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(1280px - 12px);
+    height: 80px;
+    background-image: url("src/assets-photos/opening__image.JPG");
+    background-size: 100px 40px;
+    border: 6px solid rgb(214, 92, 170);
+    color: rgb(25, 55, 32);
+
+    h2 {
+      font-family: "Grandstander", cursive;
+      font-size: 60px;
+    }
+  }
+
+  .contact__section {
+    display: flex;
+    margin-top: 50px;
+
+    .contact__column {
+      width: 50%;
+
+      .contact__title {
+        font-family: "Indie Flower", cursive;
+        font-size: 70px;
+        color: rgb(25, 55, 32);
+      }
+
+      .contact__instruction {
+        font-family: "Indie Flower", cursive;
+        font-size: 30px;
+        color: rgb(25, 55, 32);
+      }
+
+      .contact__details {
+        display: flex;
+        margin-top: 30px;
+        position: relative;
+        right: 50px;
+
+        a {
+          text-decoration: none;
+          font-family: "Indie Flower", cursive;
+          color: rgb(25, 55, 32);
+          font-size: 26px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .contact__photos {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  .form__field{
+    display: flex;
+    flex-direction: column;
+    .form__label{
+      font-family: "Indie Flower", cursive;
+      font-size: 24px;
+      color: rgb(25, 55, 32);
+    }
+    .form__input {
+      border: 2px solid rgb(25, 55, 32);
+      background-color: transparent;
+      line-height: 2.625rem;
+      width: 300px;
+      border-radius: 5px;
+    }
+    .textarea{
+      width: 300px;
+      border: 2px solid rgb(25, 55, 32);
+      background-color: transparent;
+      border-radius: 5px;
+    }
+  }
+  .btn{
+    font-family: "Indie Flower", cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-image: url("src/assets-photos/opening__image.JPG");
+    background-size: 40px 16px;
+    border-radius: 5px;
+  }
+}

@@ -14,8 +14,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(241, 58, 174);
+  background-color: rgb(214, 92, 170);
   position: sticky;
+  top: 0;
 }
 
 .header__logo {
@@ -32,6 +33,10 @@ a {
   font-size: 60px;
   padding: 30px;
   color: white;
+}
+.logo:hover{
+  color: rgb(170, 219, 245);
+  transition: 0.3s;
 }
 .header__nav {
   padding: 30px;

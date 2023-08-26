@@ -10,10 +10,9 @@ function Header (){
             <div className="header__nav">
               <nav>
                 <ul className='nav__list'>
-                  <li className='about'><a href="#">ABOUT US</a></li>
-                  <li className='events'><a href="#">EVENTS</a></li>
-                  <li className='shop'><a href="#">SHOP</a></li>
-                  <li className='contact'><a href="#">CONTACT</a></li>
+                  <li className='about'><a href="#aboutUs">ABOUT US</a></li>
+                  <li className='events'><a href="#events">EVENTS</a></li>
+                  <li className='contact'><a href="#contact">CONTACT</a></li>
                 </ul>
             
               </nav>

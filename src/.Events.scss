@@ -1,50 +1,61 @@
 #root {
-    max-width: 1280px;
-    margin: 0 auto;
-    text-decoration: none;
-    box-sizing: border-box;
+  text-decoration: none;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.events{
-    background-color: rgb(212, 245, 245);
-    margin: 50px 0;
+.events {
+  margin: 50px 0;
 }
-.events__heading{
+.events__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(1280px - 12px);
+  height: 80px;
+  background-image: url("src/assets-photos/opening__image.JPG");
+  background-size: 100px 40px;
+  // border-width: 0 16px 6px 6px;
+  border: 6px solid rgb(214, 92, 170);
+  color: rgb(25, 55, 32);
+}
+.events__heading > h2 {
+  font-family: "Grandstander", cursive;
+  font-size: 60px;
+}
+.events__photos {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 600px;
+  width: 1280px;
+  p {
+    font-family: "Grandstander", cursive;
+    width: 350px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    background-image: url("src/assets-photos/opening__image.JPG");
-    background-size: 100px 40px;
-    
-}
-.events__heading >h2{
-    font-family: 'Grandstander', cursive;
-    font-size: 60px;
-}
-.events__photos{
-    display: flex;
-    // margin-top: 50px;
-    justify-content: space-between;
-    align-items: center;
-    height: 600px;
-    p{
-        font-family: 'Grandstander', cursive;
-        text-orientation: ;
-    }
+    flex-direction: column;
+    font-size: 28px;
+    padding: 10px;
+    text-align: center;
+  }
 }
 
-.events__image1{
-    height: 600px;
-    width: 450px;
-    background-image: url("./assets-photos/Plant23.jpg");
-    background-size: cover;
+.events__image1 {
+  height: 600px;
+  width: 450px;
+  background-image: url("./assets-photos/Plant23.jpg");
+  background-size: cover;
+  border: 2px solid rgb(214, 92, 170);
 }
-.events__image2{
-    height: 600px;
-    width: 450px;
-    background-image: url("src/assets-photos/24.06 plant poster1 (1).png");
-    background-size: cover;
+.events__image2 {
+  height: 600px;
+  width: 450px;
+  background-image: url("src/assets-photos/24.06 plant poster1 (1).png");
+  background-size: cover;
+  border: 3px solid rgb(214, 92, 170);
 }
