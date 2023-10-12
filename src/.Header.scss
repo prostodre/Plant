@@ -17,44 +17,53 @@ a {
   background-color: rgb(214, 92, 170);
   position: sticky;
   top: 0;
+
+  .header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+      font-family: "Indie Flower", cursive;
+      font-size: 60px;
+      padding: 30px;
+      color: white;
+    }
+    .logo:hover{
+      color: rgb(170, 219, 245);
+      transition: 0.3s;
+    }
+  }
+
+  .header__nav {
+    padding: 30px;
+
+    .nav__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+    }
+
+    .nav__list > li > a {
+      list-style-type: none;
+      color: white;
+      padding: 10px;
+      font-family: "Indie Flower", cursive;
+      font-size: 25px;
+    }
+    .nav__list > li > a:hover {
+      color: rgb(170, 219, 245);
+      transition: 0.3s;
+    }
+  }
 }
 
-.header__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header__logo > a {
-  text-decoration: none;
-}
 
-.logo {
-  font-family: "Indie Flower", cursive;
-  font-size: 60px;
-  padding: 30px;
-  color: white;
-}
-.logo:hover{
-  color: rgb(170, 219, 245);
-  transition: 0.3s;
-}
-.header__nav {
-  padding: 30px;
-}
-.nav__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style-type: none;
-}
-.nav__list > li > a {
-  list-style-type: none;
-  color: white;
-  padding: 10px;
-  font-family: "Indie Flower", cursive;
-  font-size: 25px;
-}
-.nav__list > li > a:hover {
-  color: rgb(170, 219, 245);
-  transition: 0.3s;
-}
+
+
+
+
+
+
+
