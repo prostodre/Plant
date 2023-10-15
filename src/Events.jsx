@@ -11,7 +11,7 @@ function Events() {
       "https://ra.co/events/1727344", "_blank"); 
   };
 
-  }
+  
 
   return (
     <section className="events" id="events">
