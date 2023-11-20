@@ -9,6 +9,8 @@ function Header() {
         </a>
       </div>
       <div className="header__nav">
+        <input type="checkbox" id="burger"/>
+        <label htmlFor="burger"></label>
         <nav>
           <ul className="nav__list">
             <li className="nav__element">

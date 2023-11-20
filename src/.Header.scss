@@ -39,7 +39,16 @@ a {
     @include mobile {
       display: none;
     }
-    
+
+    #burger  {
+      display: none;
+    }
+    label {
+      display: none;
+      @include mobile {
+        
+      }
+    }
 
     .nav__list {
       display: flex;
